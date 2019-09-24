@@ -20,6 +20,7 @@ end
 
 
 def pop_with_args(array)
+  array(2)
   
 end 
 
