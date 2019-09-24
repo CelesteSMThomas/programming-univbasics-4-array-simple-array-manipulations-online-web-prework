@@ -55,6 +55,7 @@ end
 
 
 def using_uniq(array)
+  array.uniq
   
 end
 
@@ -62,6 +63,7 @@ end
 
 
 def using_flatten(array)
+  array.flatten
   
 end
 
@@ -69,6 +71,7 @@ end
 
 
 def using_delete(array, string)
+  array.delete(string)
   
 end
 
@@ -76,6 +79,7 @@ end
 
 
 def using_delete_at(array,integer)
+  array.delete(integer)
   
 end
 
